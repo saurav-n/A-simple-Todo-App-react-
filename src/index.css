@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes makeVisible {
+    from{
+        display: hidden;
+    }
+    to{
+        display: flex;
+    }
+}
+
+.expandDiv{
+    animation: makeVisible 0.5s ease-in-out ;
+}
